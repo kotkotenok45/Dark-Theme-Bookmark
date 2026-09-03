@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Быстрая Темная Тема</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 20px;
+      text-align: center;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .bookmarklet-btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #2ea44f;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      cursor: move;
+      box-shadow: 0 4px 12px rgba(46, 164, 79, 0.3);
+      margin: 20px 0;
+    }
+    .instructions {
+      background: #ffffff;
+      border: 1px solid #e1e4e8;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌙 Быстрая Темная Тема</h1>
+  <p>Установите кнопку за 3 секунды без расширений и установок.</p>
+
+  <!-- Сама кнопка-закладка -->
+  <a class="bookmarklet-btn" href="javascript:(function(){var id='dark-mode-toggle-style';var oldStyle=document.getElementById(id);if(oldStyle){oldStyle.remove();}else{var style=document.createElement('style');style.id=id;style.innerHTML='html { filter: invert(100%) hue-rotate(180deg) !important; } img, video, svg, canvas, [style*=\&quot;background-image\&quot;] { filter: invert(100%) hue-rotate(180deg) !important; }';document.head.appendChild(style);}})();">
+    🌙 Тёмная тема (Перетащи меня)
+  </a>
+
+  <div class="instructions">
+    <h3>Инструкция по установке:</h3>
+    <ol>
+      <li>Убедитесь, что панель закладок включена (`Ctrl + Shift + B` или `Cmd + Shift + B`).</li>
+      <li>Зажмите левой кнопкой мыши зеленую кнопку выше и **перетащите её на панель закладок**.</li>
+      <li>Готово! Теперь на любом сайте нажимайте эту закладку, чтобы включить или выключить ночной режим.</li>
+    </ol>
+  </div>
+
+</body>
+</html>
