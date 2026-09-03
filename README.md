@@ -3,7 +3,7 @@
 > Простая и быстрая тёмная тема для любого сайта в один клик. Без установки тяжёлых расширений, браузерных разрешений и стороннего кода.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Size](https://img.shields.io/badge/size-%3C1KB-brightgreen.svg)
+![Size](https://img.shields.io/badge/size-3KB-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-Chrome%20%7C%20Firefox%20%7C%20Edge%20%7C%20Safari-orange.svg)
 
 ---
